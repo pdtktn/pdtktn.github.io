@@ -51,7 +51,7 @@ margin-bottom: 20px;
 html, body { height: 100%; }
 
 body {
-	font:16px/1 "NeueHaasUnicaPro-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font:16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #666;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
@@ -230,7 +230,7 @@ em, i { font-style: italic; }
 .post h1 {
 	margin-bottom: 20px;
 	color: #222;
-	font: 300 32px/1.4em "NeueHaasUnicaPro-Regular", "Helvetica Neue", Helvetica,Arial,sans-serif;
+	font: 300 32px/1.4em "Helvetica Neue", Helvetica,Arial,sans-serif;
 }
 
 .post h2 {
@@ -668,4 +668,23 @@ h2.month {
 	font-style: normal;
 	font-stretch: normal;
 	unicode-range: U+0020-25CA;
+}
+@font-face {
+	font-family: 'Helvetica Neue';
+	src: url('HelveticaNeue-Bold.eot');
+	src: url('HelveticaNeue-Bold.eot?#iefix') format('embedded-opentype'),
+		url('HelveticaNeue-Bold.woff') format('woff'),
+		url('HelveticaNeue-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Helvetica Neue';
+	src: url('HelveticaNeue.eot');
+	src: url('HelveticaNeue.eot?#iefix') format('embedded-opentype'),
+		url('HelveticaNeue.woff') format('woff'),
+		url('HelveticaNeue.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
