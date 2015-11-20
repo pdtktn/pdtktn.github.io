@@ -51,7 +51,7 @@ margin-bottom: 20px;
 html, body { height: 100%; }
 
 body {
-	font:16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font:16px/1 "AtlasTypewriterRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #666;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
@@ -685,6 +685,25 @@ h2.month {
 	src: url('HelveticaNeue.eot?#iefix') format('embedded-opentype'),
 		url('HelveticaNeue.woff') format('woff'),
 		url('HelveticaNeue.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Atlas Typewriter';
+	src: url('AtlasTypewriterMedium.eot');
+	src: url('AtlasTypewriterMedium.eot?#iefix') format('embedded-opentype'),
+		url('AtlasTypewriterMedium.woff') format('woff'),
+		url('AtlasTypewriterMedium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Atlas Typewriter';
+	src: url('AtlasTypewriterRegular.eot');
+	src: url('AtlasTypewriterRegular.eot?#iefix') format('embedded-opentype'),
+		url('AtlasTypewriterRegular.woff') format('woff'),
+		url('AtlasTypewriterRegular.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
