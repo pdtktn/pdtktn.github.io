@@ -130,6 +130,7 @@ nav.main-nav a {
 	/*font-weight: bold;*/
 	line-height: 1.35;
 	border-radius: 3px;
+	font-family: "AtlasTypewriterRegular-Regular", Helvetica Neue;
 
 }
 nav.main-nav a.cta {
